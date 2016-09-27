@@ -1,0 +1,266 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+\usepackage{hyperref}
+\usepackage{calc}
+\definecolor{linkcolour}{rgb}{0.25,0.25,0.6}
+\hypersetup{colorlinks,
+            linkcolor = linkcolour,
+            urlcolor  = linkcolour}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\namesection{R}{Sundararajan}{ % Your name
+%\small Third Year Undergraduate, Computer Science and Engineering | \href{mailto:rsundar@cse.iitk.ac.in}{rsundar@iitk.ac.in} | +91-8765674508\\
+%}
+{\noindent\uppercase{\textbf{\LARGE{Shashank Bhushan}}}\\}
+\hspace{73pt}Third Year Undergraduate, Mechanical Engineering \textbf{|} \runlocation{\href{mailto:skbhu@iitk.ac.in}{skbhu@iitk.ac.in}} \textbf{|} +91-7754915990\\
+\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.6pt}} % Horizontal rule
+\vspace{-5pt}
+
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+{\uppercase\uline{\textbf{\large{Interests}}\hfill}}
+\microspace
+
+Startups \& Entrepreneurship, Android Development, Graphics Designing, Data Structures \& Algorithms
+\microspace
+
+{\uppercase{\textbf{\large{Education}}\hfill}}
+\microspace
+\begin{tabular}{|l|l|l|l|}
+\cline{1-4}
+\textbf{\hspace{10pt}Year\hspace{10pt} }&\textbf{\hspace{100pt}Degree}&\textbf{\hspace{60pt}Institute}&\textbf{\hspace{10pt}CPI/\%}\\
+\cline{1-4}
+\hspace{10pt}2017& \hspace{66pt}Bachelor of Technology&\hspace{5pt}Indian Institute of Technology Kanpur\hspace{10pt} &\hspace{10pt}5.7/10.0\\
+\hspace{10pt}2012& All India Senior School Certificate Examination (CBSE) &\hspace{47pt}Shiv Jyoti , Kota\hspace{45pt}&\hspace{10pt}73.4 \%\\
+\hspace{10pt}2010&\hspace{17pt}Indian Certificate of Secondary Education (ICSE)\hspace{17pt} &\hspace{26pt}Don Bosco Academy, Patna\hspace{24pt}&\hspace{10pt}82 \%\\
+\cline{1-4}
+\end{tabular}
+\microspace
+%------------------------------------------------
+% Awards & Acheivements
+%------------------------------------------------
+
+{\uppercase\uline{\textbf{\large{Academic  Achievements}}\hfill}}
+\begin{tightitemize}
+\item Secured \textbf{All India Rank 3429} in JEE Advanced out of more than 500,000 aspirants\hfill{\textbf{2013}}
+\item Secured a \textbf{score of 265/360} in JEE Mains given by around 1,300,000 students\hfill{\textbf{2013}}
+\item Secured a \textbf{score of 382/450} in BITS Entrance Exam\hfill{\textbf{2013}}
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+{\uppercase\uline{\textbf{\large{Professional Experience}}\hfill}}
+\microspace
+
+
+\sectionspace % Some whitespace after the section
+\runsubsection{Google Transparency}
+\rundescript{- Under Dr Koumudi Patil (Design Department IIT Kanpur)}
+\hfill {\textbf{(Jul 2015 to Nov 2015)}}\\
+\rundescript{A Google project to help the citizen to track government construction project}
+
+\begin{tightitemize}
+\item Working on front end part of the android app development with a team of two in duration of 2 months.
+\item Google map integration to have editing functionality on map for drawing roads using dot joining, and mark buildings. 
+\item Learned about useful tools as Slack to manage issues and communication, Swagger for api designing and fabric for crashanalytics .
+\item Interactive graphical presentation of progress, and messaging system to chat with other user.  
+\end{tightitemize}
+
+
+
+
+\sectionspace % Some whitespace after the section
+\runsubsection{Bello - Material Sharing App for Education Institutes }
+\rundescript{|Google Hackathon  Group(GDG) Project.}
+\hfill {\textbf{(Oct 2015 )}}\\
+\rundescript{A place to maintain your favourite courses from list of course and upload download material get news of same.(\href{https://play.google.com/store/apps/details?id=com.project.osmos}{Bello App})} 	
+
+\begin{tightitemize}
+\item Starting from scratch built the UI/UX and the conceptualization of idea and designing of the screen and implementation.
+\item Won 2nd rank in GDG among 200 people, a lite app with marshmallow support and search system.
+\item A complete multiple download and upload service from camera/storage/drive from app and sharing option.
+\item Providing a discussion forum with voting system and announcement section with real time updates using GCM.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+\runsubsection{CRANKOUT TECH Pvt Ltd}
+\rundescript{| Android App Development Intern}
+\hfill {\textbf{(May 2015 to Jul 2015)}}\\
+\location{Book Any Gym, Studio, Sports venue or personal Health Coach in Mumbai. (\href{http://www.crankoutapp.com/}{CrankOut App})}
+
+\begin{tightitemize}
+\item Created a minimalistic flow and paid special attention to user experience . Provide free exploration with no login at first
+\item Implemented Session Management, Cart Management and Material Design guidelines and heuristic flow for a handy usage
+\item Built a payment wallet and PayU wallet . Later finding the details of the transactions 
+\end{tightitemize}
+
+
+
+
+\sectionspace % Some whitespace after the section
+\runsubsection{AQITA  Pvt Ltd}
+\rundescript{| Android App Development Freelance}
+\hfill {\textbf{(Aug 2015 to Present)}}\\
+\location{Find all the offers , previous purchases , saved items from any store in Bangaluru as soon as you check in.}
+
+\begin{tightitemize}
+\item Single handed work on the frontend development. Making a light app which is quick in server interaction and reacts quick
+\item Google map API integration to search for the nearest offers. Implemented GCM library to app and handle Intent manager.
+% \item QRcode Scanner and GCM usage .
+% \item Cart Management .
+\end{tightitemize}
+
+
+{\uppercase\uline{\textbf{\large{Projects}}\hfill}}
+\microspace
+
+\runsubsection{Auraplay - An Articulated Mechanical Robotic Arm}
+\rundescript{| Electronics Club Project }
+\hfill {\textbf{(May 2014 to Jun 2014)}}\\
+
+\begin{tightitemize}
+\item Making a mobile Fluid Interface of a raspberry-pie, controlled by laser pen which is a projected screen.\runlocation{\href{https://www.youtube.com/watch?v=5coxYI7yprY}{(Project Video Link)}}
+\item Using OpenCV to track screen through contour detection and mouse handling through laser.Made a python py game in it
+\end{tightitemize}
+
+\microspace
+
+%\runsubsection{TA202}
+%\rundescript{- Professor }
+%\runsubsection{V.K Jain }
+%\hfill {\textbf{(Jan 2015 to Apr 2015)}}\\
+%\begin{tightitemize}
+%\item A functional rice plant sowing machine. Made an effective design using improved mechanism with MATLAB stimulation 
+%\item Awarded as the \textbf{best project} from the whole batch of 440 students.Ans is now filed for a \textbf{patent}.\runlocation{\href{https://www.youtube.com/watch?v=kp_Sz-XeJyE}{(Project Video Link)}}
+%\item The mechanism was designed so that the complete machine can run from a single point's motion using both motor or manually
+%\end{tightitemize}
+
+\microspace
+
+\sectionspace
+%------------------------------------------------
+% Technical Skills
+%------------------------------------------------
+
+{\uppercase\uline{\textbf{\large{Technical Skills}}\hfill}}
+
+\begin{tightitemize}
+\item \textbf{Programming Languages :  }C, C++, JavaScript
+\item \textbf{Development \hspace{48pt}  : } Andoird Studio, Eclipse, HTML, CSS, Django, Node.js, Bootstrap.css, MongoDB
+\item \textbf{Utilities \& Softwares \hspace{19pt}: } Git, Make, Bash, Postman, Microsoft Excel, Microsoft PowerPoint
+\item \textbf{Operating Systems \hspace{27pt}: } Fedora, Ubuntu, Mac OS, Windows
+\item \textbf{Design Software \hspace{35pt}      :} Sketch(Mac) , Auto-cad , Solidworks Autodesk Inventor , Adobe Illustrator ,Adobe Photoshop
+\end{tightitemize}
+\sectionspace
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+\sectionspace % Some whitespace after the section
+% \sectionspace % Some whitespace after the section
+% \sectionspace % Some whitespace after the section
+% \sectionspace % Some whitespace after the section
+% \sectionspace % Some whitespace after the section
+% \sectionspace % Some whitespace after the section
+% {\uppercase\uline{\textbf{\large{Relevant Coursework}}\hfill}}
+% \microspace
+
+% Fundamental of Computing .Got an A grade for this course.
+% \sectionspace % Some whitespace after the section
+
+{\uppercase\uline{\textbf{\large{Leadership Skills}}\hfill}}
+
+\microspace
+\rundescript{{CULTURAL SECRETARY} | Hall Executive Committee, Hall 3}
+\hfill {\textbf{(Jul 2014 to Apr 2015)}}\\
+\begin{tightitemize}
+\item Was part of a team of 11 people who managed all the Hall level Activities and Supervied Inter as well as inter-hall events
+\item Won the \textbf{Galaxy} trophy the 7th time in a row which is IIT Kanpur's inter-hostel cultural Festival
+\item Invented a programme through which every new residents of hall could get full exposure to their cultural talent
+\end{tightitemize}
+
+\minispace
+
+% \rundescript{COORDINATOR – INFORMALS , TECHKRITI'15 .( Technical Festival of IIT Kanpur )}
+% \hfill {\textbf{(Jul 2014-Apr 2015)}}\\
+% \begin{tightitemize}
+% \item Organised and Invented Ideas for Fun Games which was open to all present in the TEchkriti fest.
+% \end{tightitemize}
+
+% \minispace
+
+% \rundescript{COORDINATOR – DESIGN EVENTS , TECHKRITI'15}
+% \hfill {\textbf{(Jul 2014-Apr 2015)}}\\
+% \begin{tightitemize}
+% \item Conducted the competitions of \textbf{Grand prix and Concantenate} in Techkriti including bringing participations from over India
+% \item Emphasised on post festival logistics management reduce the lead time from 5 months to 2 months.
+% \end{tightitemize}
+
+
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+% Leadership Skills
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
